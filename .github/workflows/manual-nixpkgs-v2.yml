@@ -23,7 +23,7 @@ jobs:
         with:
           ref: refs/pull/${{ github.event.pull_request.number }}/merge
 
-      - uses: cachix/install-nix-action@526118121621777ccd86f79b04685a9319637641 # v31
+      - uses: cachix/install-nix-action@f0fe604f8a612776892427721526b4c7cfb23aba # v31
         with:
           extra_nix_config: sandbox = true
 
