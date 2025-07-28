@@ -22,7 +22,7 @@ jobs:
         with:
           ref: ${{ needs.get-merge-commit.outputs.mergedSha }}
 
-      - uses: cachix/install-nix-action@526118121621777ccd86f79b04685a9319637641 # v31
+      - uses: cachix/install-nix-action@fc6e360bedc9ee72d75e701397f0bb30dce77568 # v31
         with:
           extra_nix_config: sandbox = true
           nix_path: nixpkgs=channel:nixpkgs-unstable
