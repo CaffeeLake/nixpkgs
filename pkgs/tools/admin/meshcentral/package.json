@@ -102,7 +102,7 @@
     "aedes": "0.39.0",
     "mysql2": "3.11.4",
     "@mysql/xdevapi": "8.0.33",
-    "mongodb": "4.13.0",
+    "mongodb": "4.17.0",
     "saslprep": "1.0.3",
     "pg": "8.14.1",
     "mariadb": "3.4.0",
